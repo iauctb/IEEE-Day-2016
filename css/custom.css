@@ -1,3 +1,5 @@
+.no-margin{margin: 0}
+
 #intro{
    min-height: 98vh;
    overflow: hidden;
@@ -25,14 +27,41 @@
    border-left: 25vw solid transparent;
    right: 0;}
 
-#intro .i3d-logo-wrapper .i3d-logo-part{
+#intro .i3eday-logo-wrapper .i3eday-logo-part{
    display: inline-block;
-   font-size: 110px;
+   font-size: 3.056em;
    text-transform: uppercase}
 
-#intro .i3d-logo-wrapper .i3d-logo-part:nth-of-type(2) > span{
+#intro .i3eday-logo-wrapper .i3eday-logo-part:nth-of-type(2) > span{
    display: block;
    line-height: .9;
-   font-size: 48px;}
+   font-size: 0.445em}
 
-#intro .i3d-logo-wrapper .i3d-logo-part:last-of-type{font-weight: 400}
+#intro .i3eday-logo-wrapper .i3eday-logo-part:last-of-type{font-weight: 400}
+
+#intro .typed{
+   font-weight: bold;
+   text-indent: 1em;
+   font-size: 1.2em;}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
