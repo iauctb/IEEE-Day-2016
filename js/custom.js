@@ -17,7 +17,6 @@ $(function(){
       $anchor = $(this).attr('href');
       if ( pattern.test($anchor) ) {
          $(this).on('click', function(event){
-            console.log($($anchor));
             $('html, body').stop().animate({
                scrollTop: $($anchor).offset().top
             }, 1000, 'swing');

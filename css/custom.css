@@ -58,12 +58,15 @@
    -moz-animation: up_and_down 1.2s infinite;
    animation: up_and_down 1.2s infinite;}
 
+#about{padding: 4em 0}
+
+
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
+    animation: blink 0.7s infinite;}
+
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
