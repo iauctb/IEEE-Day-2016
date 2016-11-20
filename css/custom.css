@@ -2,6 +2,7 @@
 
 #intro{
    min-height: 98vh;
+   margin-bottom: 2vh;
    overflow: hidden;
    position: relative;
    background-image: url('../img/people.jpg');
@@ -19,13 +20,13 @@
    bottom: 0;}
 
 #intro:after{
-   border-bottom: 20vh solid white;
-   border-right: 75vw solid transparent;
-   left: 0;}
-#intro:before{
    border-bottom: 7vh solid white;
    border-left: 25vw solid transparent;
    right: 0;}
+#intro:before{
+   border-bottom: 20vh solid white;
+   border-right: 75vw solid transparent;
+   left: 0;}
 
 #intro .i3eday-logo-wrapper .i3eday-logo-part{
    display: inline-block;
@@ -41,8 +42,21 @@
 
 #intro .typed{
    font-weight: bold;
-   text-indent: 1em;
    font-size: 1.2em;}
+
+#intro .small{opacity: .8}
+
+#intro .see-more{
+   position: absolute;
+   bottom: 0; left: 0;
+   padding: 3em 9em;}
+
+#intro .see-more .gb{will-change: transform}
+
+#intro .see-more:hover .gb{
+   -webkit-animation: up_and_down 1.2s infinite;
+   -moz-animation: up_and_down 1.2s infinite;
+   animation: up_and_down 1.2s infinite;}
 
 .typed-cursor{
     opacity: 1;
@@ -64,4 +78,20 @@
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+@keyframes up_and_down{
+   0% { transform: translateY(0) }
+   30% { transform: translateY(0.8em) }
+   100% { transform: translateY(0) }
+}
+@-webkit-keyframes up_and_down{
+   0% { -webkit-transform: translateY(0) }
+   30% { -webkit-transform: translateY(0.8em) }
+   100% { -webkit-transform: translateY(0) }
+}
+@-moz-keyframes up_and_down{
+   0% { transform: translateY(0) }
+   30% { transform: translateY(0.8em) }
+   100% { transform: translateY(0) }
 }
