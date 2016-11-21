@@ -13,15 +13,13 @@ $(function(){
 $(function(){
    var pattern = /^(#)\w+/;
 
-   $('a').each(function(){
+   $('a').on('click', function(event){
       $anchor = $(this).attr('href');
       if ( pattern.test($anchor) ) {
-         $(this).on('click', function(event){
-            $('html, body').stop().animate({
-               scrollTop: $($anchor).offset().top
-            }, 1000, 'swing');
-            event.preventDefault();
-         })
+         $('html, body').stop().animate({
+            scrollTop: $($anchor).offset().top
+         }, 1000, 'swing');
+         event.preventDefault();
       }
    })
 
