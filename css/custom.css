@@ -60,11 +60,18 @@
 
 #about{padding: 4em 0}
 
+#carousel{padding: 2em 0}
+
+#carousel .owl-stage-outer{height: 343px}
+
 #carousel .owl-item img{padding: 6px}
 
 #carousel .owl-item img:first-of-type{
    margin-right: 50%;
    margin-bottom: -25%;}
+
+#poster{padding: 4em 0}
+
 
 .typed-cursor{
     opacity: 1;
