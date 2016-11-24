@@ -44,3 +44,7 @@ $(function(){
     }
  });
 });
+
+
+// ATV Image
+atvImg();

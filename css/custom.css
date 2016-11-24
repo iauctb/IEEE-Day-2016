@@ -70,8 +70,14 @@
    margin-right: 50%;
    margin-bottom: -25%;}
 
-#poster{padding: 4em 0}
+#poster{padding: 5em 0}
 
+#poster .desktop-8{margin: 4em 0}
+
+#poster .poster{
+   width: 300px;
+   height: 415px;
+   margin: auto;}
 
 .typed-cursor{
     opacity: 1;
