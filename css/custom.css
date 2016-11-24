@@ -60,6 +60,11 @@
 
 #about{padding: 4em 0}
 
+#carousel .owl-item img{padding: 6px}
+
+#carousel .owl-item img:first-of-type{
+   margin-right: 50%;
+   margin-bottom: -25%;}
 
 .typed-cursor{
     opacity: 1;
