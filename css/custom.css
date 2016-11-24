@@ -74,10 +74,7 @@
 
 #poster .desktop-8{margin: 4em 0}
 
-#poster .poster{
-   width: 300px;
-   height: 415px;
-   margin: auto;}
+#poster .poster{padding: 0 3em}
 
 .typed-cursor{
     opacity: 1;
