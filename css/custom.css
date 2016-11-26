@@ -76,9 +76,24 @@
 
 #poster .poster{padding: 0 3em}
 
-#teaser{padding: 4em 0}
+#teaser{padding: 4em 0 0}
 
 #teaser .vida-poster-icon .gb{font-size: 72px}
+
+#getTicket{padding: 4em 0}
+
+#getTicket #buttonWrapper{margin: 7em 0 5em}
+
+#getTicket #buttonWrapper a{margin-bottom: 1em !important;}
+
+#getTicket #buttonWrapper.soldout a{
+   pointer-events: none;
+   cursor: not-allowed;
+   text-decoration: line-through}
+
+#getTicket #buttonWrapper small{
+   font-size: 12px;
+   display: block;}
 
 .typed-cursor{
     opacity: 1;

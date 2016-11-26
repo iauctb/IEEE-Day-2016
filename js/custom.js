@@ -48,3 +48,8 @@ $(function(){
 
 // ATV Image
 atvImg();
+
+// countdown
+$(function() {
+   countdown(year,month,day,hour,minute)
+})
