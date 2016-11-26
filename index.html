@@ -22,12 +22,15 @@
 		<!-- ATV CSS -->
 		<link href="css/atvImg.css" rel="stylesheet">
 
+		<!-- Vida CSS -->
+		<link href="css/vida.css" rel="stylesheet">
+
 		<!-- Custom CSS -->
 		<link href="css/custom.css" rel="stylesheet">
 	</head>
 	<body>
 
-		<main style="height: 500vh;">
+		<main style="min-height: 500vh;">
 			<section id="intro">
 				<div class="joqd container">
 					<div class="joqd row">
@@ -148,7 +151,6 @@
 			<section id="poster">
 				<div class="joqd container">
 					<div class="joqd row">
-
 						<div class="joqd desktop-8 desktop-push-4">
 							<h2 class="joqd light-blue-darken-4-text">درباره‌ی <span lang="en">IEEE Day</span></h2>
 							<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیاد <b>در شصت و سه در</b> صد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیستری را برای طراحان رایانه ای و فرهنگ پیشرو</p>
@@ -159,6 +161,40 @@
 								<img src="img/poster.png">
 								<div class="atvImg-layer" data-img="img/poster.png"></div>
 							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="teaser">
+				<div class="joqd container-narrow black vida">
+					<div class="joqd container">
+						<div class="joqd row">
+							<div class="joqd desktop-8 desktop-push-2 no-padding">
+								<div class="vida-controls">
+									<div class="vida-play-progressbar">
+										<div class="vida-play-passed"></div>
+									</div>
+									<div class="vida-play-icon">
+										<i class="gb gb_play_arrow gb_s24"></i>
+									</div>
+									<div class="vida-play-time" lang="en">
+										<span class="vida-play-elapsed">00:00</span> / <span class="vida-play-duration">00:00</span>
+									</div>
+									<div class="vida-play-name">
+										<p class="vida-play-title">بانی خرگوش گنده‌هه</p>
+										<p class="vida-play-subtitle">از بلندر</p>
+									</div>
+								</div>
+								<video id="video1" class="vida-video">
+									<source src="https://hw3.asset.aparat.com/aparat-video/a_bm4d1e36ol61kp23n3714llk4nn670mk47pnk198431__a3d14.mp4" type="video/mp4">
+									متاسفانه فرمت فیلم پشتیبانی نمی‌شود.
+								</video>
+							</div>
+						</div>
+					</div>
+					<div class="joqd vida-poster" style="background-image:url('http://www.josehalcon.com/wp-content/uploads/2013/04/big_buck_bunny_2008_11.jpg')">
+						<div class="vida-poster-icon">
+							<i class="vida-icon gb gb_play_circle_filled joqd light-blue-darken-4-text"></i>
 						</div>
 					</div>
 				</div>
@@ -181,6 +217,9 @@
 
 		<!-- ATV js -->
 		<script src="js/atvImg.min.js"></script>
+
+		<!-- Vida js -->
+		<script src="js/vida.js"></script>
 
 		<!-- Custom js -->
 		<script src="js/custom.js"></script>

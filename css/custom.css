@@ -76,6 +76,10 @@
 
 #poster .poster{padding: 0 3em}
 
+#teaser{padding: 4em 0}
+
+#teaser .vida-poster-icon .gb{font-size: 72px}
+
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
