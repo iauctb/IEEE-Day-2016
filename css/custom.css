@@ -111,6 +111,16 @@
    display: table-cell;
    vertical-align: middle;}
 
+#partners{padding: 4em 0}
+
+#partners .partner{
+   padding: 1em;
+   display: block;}
+
+#partners .partner p{
+   margin: 1em 0;
+   font-size: 12px}
+
 footer p{
    margin: .5em 0 0;
    font-size: 12px}
