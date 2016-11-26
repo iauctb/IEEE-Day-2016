@@ -80,6 +80,25 @@
 
 #teaser .vida-poster-icon .gb{font-size: 72px}
 
+#lecturers{padding: 4em 0}
+
+#lecturers .lecturer{
+   padding: 124px 24px 24px
+}
+
+#lecturers .lecturer > div{
+   min-height: 320px;
+   padding: 0 2em 1em}
+
+#lecturers .lecturer img{
+   padding: 0 20% .5em;
+   margin-top: -100px}
+
+#lecturers .lecturer .h4{
+   font-weight: bold;
+   margin: .5em 0;
+}
+
 #getTicket{padding: 4em 0}
 
 #getTicket #buttonWrapper{margin: 7em 0 5em}
