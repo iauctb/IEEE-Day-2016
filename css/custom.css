@@ -95,6 +95,22 @@
    font-size: 12px;
    display: block;}
 
+#map #mapCanvas{width: 60%; height: 350px}
+
+#map #mapDesc{
+   display: table;
+   position: absolute;
+   top: 0; left: 0;
+   width: 40%; height: 350px;
+   padding: 4em}
+
+#map #mapDesc p{
+   line-height: 2;
+   text-align: justify;
+   margin: 0;
+   display: table-cell;
+   vertical-align: middle;}
+
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
