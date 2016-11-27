@@ -50,7 +50,9 @@ $(function(){
 
 
 // ATV Image
-atvImg();
+if ( $(window).outerWidth() > 768 ) {
+   atvImg();
+}
 
 // countdown
 $(function() {
