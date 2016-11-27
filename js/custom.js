@@ -33,10 +33,10 @@ $(function(){
      rtl:true,
      responsive:{
         0:{
-            items:1
+            items: 3
         },
-        600:{
-            items:3
+        768:{
+            items: 5
         },
         992:{
             items: 8

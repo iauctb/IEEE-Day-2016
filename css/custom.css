@@ -40,6 +40,8 @@
 
 #intro .i3eday-logo-wrapper .i3eday-logo-part:last-of-type{font-weight: 400}
 
+#intro .i3eday-logo-wrapper img{display: none}
+
 #intro .typed{
    font-weight: bold;
    font-size: 1.2em;}
@@ -137,6 +139,12 @@
    margin: 1em 0;
    font-size: 12px}
 
+footer p{
+   margin: .5em 0 0;
+   font-size: 12px}
+
+footer p .date{float: left}
+
 @media screen and (min-width: 992px) and (max-width: 1199px) {
    #carousel .owl-stage-outer{height: 283px}
 
@@ -145,17 +153,71 @@
    #lecturers .lecturer img{margin-top: -75px}
 
    #lecturers .lecturer{padding: 100px 24px 24px}
-
-
-
 }
 
+@media screen and (min-width:768px) and (max-width: 991px) {
+   #carousel .owl-stage-outer{height: 312px}
 
-footer p{
-   margin: .5em 0 0;
-   font-size: 12px}
+   #poster .desktop-8{margin: -2em 0 1em}
 
-footer p .date{float: left}
+   #poster .poster{padding: 0 3em}
+
+   #getTicket #buttonWrapper{margin: 1em 0}
+}
+
+@media screen and (max-width: 767px) {
+   #intro{
+      padding: 0 1em;
+      height: 100vh}
+
+   #intro:after,
+   #intro:before{content: none}
+
+   #intro .i3eday-logo-wrapper .i3eday-logo-part{display: none}
+
+   #intro .i3eday-logo-wrapper img{display: block}
+
+   #intro .typed{min-height: 2.856em;}
+
+   #intro .see-more{
+      color: white;
+      right: 0;
+      padding: 3em 0;
+      text-align: center;}
+
+   #about,
+   #poster{padding: 0 1em}
+
+   #carousel .owl-stage-outer{height: 297px}
+
+   #poster .desktop-8{margin: 0}
+
+   #poster .poster{padding: 0 3em}
+
+   #lecturers{padding: 1em}
+
+   #lecturers .lecturer{padding: 124px 12px 24px}
+
+   #getTicket{padding: 2em 1em}
+
+   #getTicket #buttonWrapper{margin: 1em 0}
+
+   #map #mapDesc,
+   #map #mapCanvas{
+      width: 100%;
+      position: static;}
+
+   #map #mapDesc{height: auto}
+
+   #partners{padding: 0 1em 0}
+
+   #partners .partner{padding: 0}
+
+   footer p .date{
+      width: 100%;
+      margin: .5em 0 0;
+      text-align: center;}
+}
 
 .typed-cursor{
     opacity: 1;
