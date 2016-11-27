@@ -74,7 +74,7 @@
 
 #poster .desktop-8{margin: 4em 0}
 
-#poster .poster{padding: 0 3em}
+#poster .poster{padding: 0 0 0 3em}
 
 #teaser{padding: 4em 0 0}
 
@@ -82,9 +82,7 @@
 
 #lecturers{padding: 4em 0}
 
-#lecturers .lecturer{
-   padding: 124px 24px 24px
-}
+#lecturers .lecturer{padding: 124px 24px 24px}
 
 #lecturers .lecturer > div{
    min-height: 320px;
@@ -96,8 +94,7 @@
 
 #lecturers .lecturer .h4{
    font-weight: bold;
-   margin: .5em 0;
-}
+   margin: .5em 0;}
 
 #getTicket{padding: 4em 0}
 
@@ -139,6 +136,20 @@
 #partners .partner p{
    margin: 1em 0;
    font-size: 12px}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+   #carousel .owl-stage-outer{height: 283px}
+
+   #poster .desktop-8{margin: 3em 0}
+
+   #lecturers .lecturer img{margin-top: -75px}
+
+   #lecturers .lecturer{padding: 100px 24px 24px}
+
+
+
+}
+
 
 footer p{
    margin: .5em 0 0;
