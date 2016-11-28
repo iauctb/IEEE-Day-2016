@@ -66,15 +66,16 @@
 
 #carousel .owl-stage-outer{height: 343px}
 
-#carousel .owl-item img{padding: 6px}
-
-#carousel .owl-item img:first-of-type{
+#carousel .owl-item .upper-img img{
+   padding: 4px 2px;
    margin-right: 50%;
-   margin-bottom: -25%;}
+   margin-bottom: -26%;}
+
+#carousel .owl-item .lower-img  img{padding:3px}
 
 #poster{padding: 5em 0}
 
-#poster .desktop-8{margin: 4em 0}
+#poster .desktop-8{margin: 2em 0}
 
 #poster .poster{padding: 0 0 0 3em}
 
@@ -87,7 +88,7 @@
 #lecturers .lecturer{padding: 124px 24px 24px}
 
 #lecturers .lecturer > div{
-   min-height: 320px;
+   min-height: 361px;
    padding: 0 2em 1em}
 
 #lecturers .lecturer img{
@@ -98,9 +99,22 @@
    font-weight: bold;
    margin: .5em 0;}
 
+#lecturers .lecturer .grey-darken-2-text{height: 5em}
+
+#lecturers .lecturer .desc-wrapper{
+   display: table;
+   height: 7em;
+   width: 100%;}
+
+#lecturers .lecturer .desc-wrapper .desc-content{
+   display: table-cell;
+   vertical-align: middle;}
+
+#lecturers .lecturer .desc-wrapper p{font-size: 12px}
+
 #getTicket{padding: 4em 0}
 
-#getTicket #buttonWrapper{margin: 7em 0 5em}
+#getTicket #buttonWrapper{margin: 8em 0 5em}
 
 #getTicket #buttonWrapper a{margin-bottom: 1em !important;}
 
@@ -139,6 +153,10 @@
    margin: 1em 0;
    font-size: 12px}
 
+#partners .partner img{
+   width: 100%;
+   height: 100px}
+
 footer p{
    margin: .5em 0 0;
    font-size: 12px}
@@ -148,9 +166,11 @@ footer p .date{float: left}
 @media screen and (min-width: 992px) and (max-width: 1199px) {
    #carousel .owl-stage-outer{height: 283px}
 
-   #poster .desktop-8{margin: 3em 0}
+   #poster .desktop-8{margin: -1em 0}
 
    #lecturers .lecturer img{margin-top: -75px}
+
+   #lecturers .lecturer .h4{height: 6em 0}
 
    #lecturers .lecturer{padding: 100px 24px 24px}
 }
@@ -159,6 +179,8 @@ footer p .date{float: left}
    #carousel .owl-stage-outer{height: 312px}
 
    #poster .desktop-8{margin: -2em 0 1em}
+
+   #lecturers .lecturer .h4{height: 5em 0}
 
    #poster .poster{padding: 0 3em}
 
@@ -197,6 +219,12 @@ footer p .date{float: left}
    #lecturers{padding: 1em}
 
    #lecturers .lecturer{padding: 124px 12px 24px}
+
+   #lecturers .lecturer > div{min-height: auto}
+
+   #lecturers .lecturer .h4{height: auto}
+
+   #lecturers .lecturer .desc-wrapper{height: auto}
 
    #getTicket{padding: 2em 1em}
 
