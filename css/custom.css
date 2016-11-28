@@ -176,7 +176,7 @@ footer p .date{float: left}
 }
 
 @media screen and (min-width:768px) and (max-width: 991px) {
-   #carousel .owl-stage-outer{height: 312px}
+   #carousel .owl-stage-outer{height: 354px}
 
    #poster .desktop-8{margin: -2em 0 1em}
 
@@ -210,7 +210,7 @@ footer p .date{float: left}
    #about,
    #poster{padding: 0 1em}
 
-   #carousel .owl-stage-outer{height: 297px}
+   #carousel .owl-stage-outer{height: auto}
 
    #poster .desktop-8{margin: 0}
 
