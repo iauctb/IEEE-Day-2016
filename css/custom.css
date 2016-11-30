@@ -62,6 +62,26 @@
 
 #about{padding: 4em 0}
 
+#about h2 span{position: relative}
+
+#about h2 span:after{
+   background-image: url('../img/ieee.png');
+   background-size: 30px 30px;
+   display: inline-block;
+   width: 30px; height: 30px;
+   position: absolute;
+   top: 3px; left: -35px;
+   content:" ";
+   -webkit-transition: -webkit-transform 1.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+           transition: -webkit-transform 1.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+           transition: transform 1.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+           transition: transform 1.4s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 1.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#about h2:hover span:after{
+   transform: rotateY(360deg);
+}
+
 #carousel{padding: 2em 0}
 
 #carousel .owl-stage-outer{height: 343px}
