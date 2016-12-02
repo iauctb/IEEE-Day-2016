@@ -12,23 +12,23 @@ body{overflow-x: hidden}
    background-position: bottom center;
    background-attachment: fixed;
    background-color: #01579b;
-   background-blend-mode: multiply;}
+   background-blend-mode: multiply}
 
 #intro:after,
 #intro:before{
    content: '';
    width: 0; height: 0;
    position: absolute;
-   bottom: 0;}
+   bottom: 0}
 
 #intro:after{
    border-bottom: 7vh solid white;
    border-left: 25vw solid transparent;
-   right: 0;}
+   right: 0}
 #intro:before{
    border-bottom: 20vh solid white;
    border-right: 75vw solid transparent;
-   left: 0;}
+   left: 0}
 
 #intro .i3eday-logo-wrapper .i3eday-logo-part{
    display: inline-block;
@@ -46,21 +46,21 @@ body{overflow-x: hidden}
 
 #intro .typed{
    font-weight: bold;
-   font-size: 1.2em;}
+   font-size: 1.2em}
 
 #intro .small{opacity: .8}
 
 #intro .see-more{
    position: absolute;
    bottom: 0; left: 0;
-   padding: 3em 9em;}
+   padding: 3em 9em}
 
 #intro .see-more .gb{will-change: transform}
 
 #intro .see-more:hover .gb{
    -webkit-animation: up_and_down 1.2s infinite;
    -moz-animation: up_and_down 1.2s infinite;
-   animation: up_and_down 1.2s infinite;}
+   animation: up_and_down 1.2s infinite}
 
 #about{padding: 4em 0}
 
@@ -83,18 +83,18 @@ body{overflow-x: hidden}
 #about h2:hover span:after{
    -ms-transform: rotateY(360deg);
    -webkit-transform: rotateY(360deg);
-   transform: rotateY(360deg);}
+   transform: rotateY(360deg)}
 
 #carousel{padding: 2em 0}
 
 #carousel .owl-stage-outer{height: 343px}
 
 #carousel .owl-item .upper-img img{
-   padding: 4px 2px;
+   padding: 4px 3px;
    margin-right: 50%;
-   margin-bottom: -26%;}
+   margin-bottom: -25%}
 
-#carousel .owl-item .lower-img  img{padding:3px}
+#carousel .owl-item .lower-img  img{padding: 3px}
 
 #poster{padding: 5em 0}
 
@@ -120,29 +120,29 @@ body{overflow-x: hidden}
 
 #lecturers .lecturer .h4{
    font-weight: bold;
-   margin: .5em 0;}
+   margin: .5em 0}
 
 #lecturers .lecturer .grey-darken-2-text{height: 5em}
 
 #lecturers .lecturer .desc-wrapper{
    display: table;
    height: 7em;
-   width: 100%;}
+   width: 100%}
 
 #lecturers .lecturer .desc-wrapper .desc-content{
    display: table-cell;
-   vertical-align: middle;}
+   vertical-align: middle}
 
 #lecturers .lecturer .desc-wrapper p{font-size: 12px}
 
-#timeline ul{padding: 3.125em 0;}
+#timeline ul{padding: 3.125em 0}
 
 #timeline ul li{
   list-style-type: none;
   position: relative;
   width: 0.375em;
   margin: .1px auto;
-  padding-top: 3.125em;}
+  padding-top: 3.125em}
 
 #timeline ul li::after {
   content: '';
@@ -155,9 +155,9 @@ body{overflow-x: hidden}
   -webkit-transform: translateX(50%);
   transform: translateX(50%);
   -webkit-transition: background .5s ease-in-out;
-  transition: background .5s ease-in-out;}
+  transition: background .5s ease-in-out}
 
-#timeline ul li.in-view::after{background: #1e88e5;}
+#timeline ul li.in-view::after{background: #1e88e5}
 
 #timeline ul li div{
   position: relative;
@@ -167,45 +167,45 @@ body{overflow-x: hidden}
   visibility: hidden;
   opacity: 0;
    -webkit-transition all .5s ease-in-out;
-  transition: all .5s ease-in-out;}
+  transition: all .5s ease-in-out}
 
 #timeline ul li div::before{
   content: '';
   position: absolute;
   bottom: 0px;
   width: 0; height: 0;
-  border-style: solid;}
+  border-style: solid}
 
 #timeline ul li:nth-child(even) div{
    -webkit-transform: translate3d(-200px, 0, 0);
    transform: translate3d(-200px, 0, 0);
-   right: 45px;}
+   right: 45px}
 
 #timeline ul li:nth-child(even) div::before{
   right: -15px;
   border-width: 16px 0 0 16px;
-  border-color: transparent transparent transparent #01579b;}
+  border-color: transparent transparent transparent #01579b}
 
 #timeline ul li:nth-child(odd) div{
    -webkit-transform: translate3d(200px, 0, 0);
    transform: translate3d(200px, 0, 0);
-   right: -439px;}
+   right: -439px}
 
 #timeline ul li:nth-child(odd) div::before{
   left: -15px;
   border-width: 16px 16px 0 0;
-  border-color: transparent #01579b transparent transparent;}
+  border-color: transparent #01579b transparent transparent}
 
 #timeline ul li.in-view div{
   transform: none;
   visibility: visible;
-  opacity: 1;}
+  opacity: 1}
 
 #getTicket{padding: 4em 0}
 
 #getTicket #buttonWrapper{margin: 8em 0 5em}
 
-#getTicket #buttonWrapper a{margin-bottom: 1em !important;}
+#getTicket #buttonWrapper a{margin-bottom: 1em !important}
 
 #getTicket #buttonWrapper.soldout a{
    pointer-events: none;
@@ -214,7 +214,7 @@ body{overflow-x: hidden}
 
 #getTicket #buttonWrapper small{
    font-size: 12px;
-   display: block;}
+   display: block}
 
 #map #mapCanvas{width: 60%; height: 350px}
 
@@ -230,13 +230,13 @@ body{overflow-x: hidden}
    text-align: justify;
    margin: 0;
    display: table-cell;
-   vertical-align: middle;}
+   vertical-align: middle}
 
 #partners{padding: 4em 0}
 
 #partners .partner{
    padding: 1em;
-   display: block;}
+   display: block}
 
 #partners .partner p{
    margin: 1em 0;
@@ -273,9 +273,9 @@ footer p .date{float: left}
 
    #poster .poster{padding: 0 3em}
 
-   #timeline ul li div{width: 250px;}
+   #timeline ul li div{width: 250px}
 
-   #timeline ul li:nth-child(odd) div{right: -289px;}
+   #timeline ul li:nth-child(odd) div{right: -289px}
 
    #getTicket #buttonWrapper{margin: 1em 0}
 }
@@ -292,13 +292,13 @@ footer p .date{float: left}
 
    #intro .i3eday-logo-wrapper img{display: block}
 
-   #intro .typed{min-height: 2.856em;}
+   #intro .typed{min-height: 2.856em}
 
    #intro .see-more{
       color: white;
       right: 0;
       padding: 3em 0;
-      text-align: center;}
+      text-align: center}
 
    #about,
    #poster{padding: 0 1em}
@@ -319,16 +319,16 @@ footer p .date{float: left}
 
    #lecturers .lecturer .desc-wrapper{height: auto}
 
-   #timeline ul li{margin-right: 20px;}
+   #timeline ul li{margin-right: 20px}
 
-   #timeline ul li div{width: calc(100vw - 91px);}
+   #timeline ul li div{width: calc(100vw - 91px)}
 
-   #timeline ul li:nth-child(odd) div{right: 45px;}
+   #timeline ul li:nth-child(odd) div{right: 45px}
 
    #timeline ul li:nth-child(odd) div::before{
      right: -15px;
      border-width: 16px 0 0 16px;
-     border-color: transparent transparent transparent #01579b;}
+     border-color: transparent transparent transparent #01579b}
 
    #getTicket{padding: 2em 1em}
 
@@ -337,7 +337,7 @@ footer p .date{float: left}
    #map #mapDesc,
    #map #mapCanvas{
       width: 100%;
-      position: static;}
+      position: static}
 
    #map #mapDesc{height: auto}
 
@@ -348,14 +348,14 @@ footer p .date{float: left}
    footer p .date{
       width: 100%;
       margin: .5em 0 0;
-      text-align: center;}
+      text-align: center}
 }
 
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;}
+    animation: blink 0.7s infinite}
 
 @keyframes blink{
     0% { opacity:1; }
