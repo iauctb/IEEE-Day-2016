@@ -46,6 +46,7 @@ $(function(){
         }
     }
  });
+ $('#carousel .owl-stage-outer').css('height', $('.owl-item').outerHeight())
 });
 
 
