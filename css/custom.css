@@ -50,6 +50,13 @@ body{overflow-x: hidden}
 
 #intro .small{opacity: .8}
 
+#intro .button{
+  opacity: .87;
+  margin-top: 12px;
+  padding-bottom: 3px}
+
+#intro .button:hover{opacity: 1}
+
 #intro .see-more{
    position: absolute;
    bottom: 0; left: 0;
