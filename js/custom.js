@@ -28,9 +28,12 @@ $(function(){
 
 // Owl carousel
 $(function(){
-  $(".owl-carousel").owlCarousel({
+  var owl = $('.owl-carousel');
+  owl.owlCarousel({
      loop: true,
      rtl:true,
+     onInitialized: callback,
+     onResize: callback,
      responsive:{
         0:{
             items: 3
@@ -46,7 +49,9 @@ $(function(){
         }
     }
  });
- $('#carousel .owl-stage-outer').css('height', $('.owl-item').outerHeight())
+ function callback(event) {
+      $('#carousel .owl-stage-outer').css('height', $('.owl-item').outerHeight())
+  }
 });
 
 
